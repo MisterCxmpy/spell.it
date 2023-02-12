@@ -7,6 +7,11 @@ spell.it is a powerful and intuitive application that helps you grammatically co
 - User-friendly interface makes it easy to use
 - Electron-based technology ensures a smooth user experience
 
+## Upcoming Features
+
+### Overlay for Quick Correction
+I'm planning to add an overlay similar to Discord that will allow users to quickly correct their sentences without having to open the full application. This will make it even easier to ensure that your writing is always grammatically correct, no matter what you're working on.
+
 ## How it works
 Simply type or paste your sentence into the application, and spell.it will use ChatGPT3 to analyze it and make any necessary corrections. The corrected sentence will then be displayed for you to review and use as needed.
 
