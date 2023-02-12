@@ -9,7 +9,6 @@
     "make": "electron-forge make",
     "build": "electron-builder"
   },
-
   "build": {
     "extraResources": "python_scripts",
     "appId": "spell.it",
@@ -29,7 +28,6 @@
       "allowToChangeInstallationDirectory": false
     }
   },
-
   "repository": "https://github.com/MisterCxmpy/spell.it",
   "keywords": [
     "Electron",
@@ -51,7 +49,6 @@
   },
   "dependencies": {
     "autosize": "^5.0.2",
-    "electron-squirrel-startup": "^1.0.0",
     "python-shell": "^1.0.8"
   }
 }
