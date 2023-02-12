@@ -13,7 +13,7 @@ user_text = sys.argv[1]
 openai.api_key = os.getenv("api_key")
 
 model_engine = "text-davinci-003"
-prompt = "Grammatically correct this sentence and make it sound better: "
+prompt = "Grammatically correct this sentence: "
 
 completion = openai.Completion.create(
     engine=model_engine,
