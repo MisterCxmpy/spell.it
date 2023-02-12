@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+body {
+  background-color: #343541;
+
+  overflow: hidden;
+  margin: 0px;
+}
+
+#ai-responses::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+#ai-responses::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+#ai-responses::-webkit-scrollbar-thumb {
+  background: #4c4c53;
+}
+
+.text-area-container {
+  width: 70%;
+  display: flex;
+  background-color: #40414f;
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+#text-area {
+  min-height: 20px;
+  max-height: 200px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  padding: 10px;
+  background-color: #40414f;
+  border: none;
+  outline: none;
+  color: white;
+  text-decoration: none;
+  resize: vertical;
+  overflow: auto;
+}
+
+#submit-btn {
+  margin-top: auto;
+  max-height: 39px;
+  padding: 10px;
+  background-color: #40414f;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+#submit-btn:hover {
+  background-color: #202123;
+}
+
+#submit-btn > i {
+  font-size: 18px;
+}
+
+.ai-responses-holder {
+  width: 100%;
+}
+
+#responses {
+  overflow: auto;
+  max-height: 100vh;
+}
+
+#ai-text-area {
+  padding: 40px 30%;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 200px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  background-color: #444654;
+  border: none;
+  color: white;
+  text-decoration: none;
+  resize: none;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+}
+
+#user-text-area {
+  padding: 40px 30%;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 200px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  background-color: #343541;
+  border: none;
+  color: white;
+  text-decoration: none;
+  resize: none;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+}
+
+.icon {
+  float: left;
+  transform: translateX(-80px);
+  font-size: 20px;
+  position:absolute;
+  top: 39%;
+}
+
+.information-panel {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.information-panel > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.information-panel > span {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.information-panel > i {
+  width: 60px;
+  height: 60px;
+  margin:0 auto;
+  display:block;
+  margin-top: 40px;
+  display:inline-block;
+  font-size: 60px;
+  line-height: 50px;
+  color:white;
+  text-align: center;
+  vertical-align: bottom;
+  cursor: pointer;
+}

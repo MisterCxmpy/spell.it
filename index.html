@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+    <title>spell.it</title>
+  </head>
+  <body>
+    <div class="ai-responses-holder">
+      <div id="responses">
+      </div>
+    </div>
+  
+    <div class="text-area-container">
+      <textarea class="text-area" id="text-area" placeholder="Write a sentence to be grammatically corrected." rows="1"></textarea>
+      <button id="submit-btn"><i class="fa-solid fa-lightbulb"></i></button>
+    </div>
+    
+    <div class="information-panel">
+      <h1>spell.it</h1>
+      <span>You'll never have to worry about perfecting your sentences again.</span>
+      <i onclick='loadPage("github.com/MisterCxmpy")' class="fa-brands fa-github"></i>
+    </div>
+
+    <script src="checker.js"></script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
